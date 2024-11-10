@@ -18,7 +18,7 @@ int found(string s1,string s2)
     {
         for (int y=0;s2[y]!='\0';y++)
         {
-            if (s1[y]==s2[y])
+            if (s1[x]==s2[y])
             {
                 rep++;
                 s2[y]=238;
